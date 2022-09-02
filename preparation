@@ -1,0 +1,25 @@
+Task : Adding category programmatically, and making categories name prefix to the product name ​
+
+For adding the category, install script was used.​
+
+For adding the prefix to the product name plugins were used.​
+
+In creating categories, create() is used to create a object or instance.​
+
+Magento's categoryInterfaces has getter and setter methods, in this I used setParentId() to setting the root categories node value, so that I can create the custom categories, under this node,​
+
+Along with this setName() was used to setting the name for the custom category.​
+
+And setIsActive() is used to make the category active.​
+
+In the Magneto's catalog product class, the product name, product price it can be collected.​
+
+Used after plugin, so that once the magento's observingmethod was called-out, the custom method will show its effect of their own.​
+
+​
+
+​
+
+​
+
+​
